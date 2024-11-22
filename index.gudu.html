@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guliston Davlat Universiteti</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #57bad8;
+        }
+
+        header {
+            background-color: #003366;
+            color: rgb(8, 8, 8);
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            margin-left: 10px;
+        }
+
+        header video {
+            width: 150px; /* Videoning o'lchami */
+            height: auto;
+            border-radius: 20px;
+        }
+
+        nav {
+            background-color: #003366;
+            color: rgb(11, 12, 12);
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: rgb(121, 160, 179);
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        iframe {
+            width: 100%;
+            height: 80vh;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Logotip o'rniga video qo'yamiz -->
+        <video autoplay muted loop>
+            <source src="./ROLIK_GULISTON DAVLAT_UNIVERSITETI.mp4" type="video/mp4">
+            <!-- Ushbu manzil o'rniga siz video faylingizni yuklashingiz kerak -->
+            Sizing brauzeringiz videoni qo'llab-quvvatlamaydi.
+        </video>
+        <h1>Guliston Davlat Universiteti</h1>
+    </header>
+
+    <nav>
+        <a href="universitet.html" target="content-frame">Universitet</a>
+        <a href="faoliyat.html" target="content-frame">Faoliyat</a>
+        <a href="talabalar.html" target="content-frame">Talabalar</a>
+        <a href="xorijiy_talabalar.html" target="content-frame">Xorijiy Talabalar</a>
+        <a href="yangiliklar.html" target="content-frame">Yangiliklar</a>
+    </nav>
+
+    <iframe src="universitet.html" name="content-frame"></iframe>
+
+</body>
+</html>
